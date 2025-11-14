@@ -9,7 +9,7 @@ Ele foi construído usando apenas conceitos iniciais do Swift.
 
 ## 🎮 Sobre o Projeto
 
-O sistema simula uma **Loja RPG** interativa, onde o jogador pode:
+O sistema simula uma **Loja de Itens RPG** interativa, onde o jogador pode:
 
 - Ver seu status (nome, nível e dinheiro)
 - Ver a lista de itens da loja
@@ -85,7 +85,7 @@ Todos os outros valores são definidos automaticamente.
 - Como montar menus interativos no console  
 - Como organizar informações usando arrays  
 - Como validar entradas do usuário  
-- Como usar `try` e `catch` de forma prática  
+- Como usar `do` e `catch` de forma prática  
 - Como dividir o código em funções  
 - Como modelar um sistema simples sem precisar de Structs  
 - Como criar lógica de compra e venda de itens  
