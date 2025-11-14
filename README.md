@@ -98,6 +98,6 @@ Todos os outros valores são definidos automaticamente.
 ## 🎓 Sobre
 
 Projeto desenvolvido como parte do desafio técnico da  
-**Apple Developer Academy | SENAC Santo Amaro**.
+Apple Developer Academy | SENAC Santo Amaro.
 
-Autor: **Gustavo Bordinasso**
+Autor: Gustavo Bordinasso
