@@ -65,6 +65,7 @@ O jogador começa escolhendo seu nome, e suas características iniciais são def
 
 - Dinheiro inicial: aleátorio entre 300 e 600
 - Nivel inicial: aleátorio entre 1 e 6
+
 A cada partida esses valores se tornam diferente.
 
 
