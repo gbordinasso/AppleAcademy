@@ -8,7 +8,7 @@ Ele foi construído usando apenas conceitos iniciais do Swift.
 
 ## 🎮 Sobre o Projeto
 
-O sistema simula uma **Loja de Itens RPG** interativa, onde o jogador pode:
+O sistema simula uma Loja de Itens RPG interativa, onde o jogador pode:
 
 - Ver seu status (nome, nível e dinheiro)
 - Consultar os itens disponíveis na loja
