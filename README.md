@@ -56,9 +56,8 @@ Armazenada em dois arrays:
 
 - `mochilaNomes`
 - `mochilaCustos`
-- 
-📌 Ao vender um item:
-O jogador recebe 50% do valor pago, calculado automaticamente no menu de venda.
+
+📌 Ao vender um item, o jogador recebe 50% do valor pago, calculado automaticamente no menu de venda.
 
 ### 🧍 Jogador
 O jogador começa escolhendo seu nome, e suas características iniciais são definidas automaticamente:
@@ -82,6 +81,32 @@ A cada partida esses valores se tornam diferente.
 O jogo solicitará apenas o nome do jogador.  
 Todos os outros valores são definidos automaticamente.
 
+
+---
+
+## 🛒 Comprar Itens
+
+O jogador só pode comprar se:
+- Tiver nível suficiente
+- Tiver dinheiro suficiente
+
+Caso contrário, o jogo avisa o motivo.
+
+## 💰 Vender Itens
+O jogador escolhe um item da mochila e recebe:
+
+- `ganho = custoOriginal / 2`
+
+Após a venda, o item é removido da mochila.
+
+## 📥 Leitura Segura de Números
+
+O sistema valida todas as entradas numéricas usando:
+
+`enum ErroEntrada: Error { case valorInvalido }
+func lerNumero() throws -> Int { ... }`
+
+Isso evita crashes caso o jogador digite algo inválido.
 
 ---
 
