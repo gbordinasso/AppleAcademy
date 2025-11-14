@@ -1,6 +1,6 @@
 # Loja De Itens
 Desafio do processo da Apple Academy – Sistema de Loja de Itens RPG em Swift
-# 🏪 Loja de Itens RPG – Desafio Apple Academy
+# 🏪 Loja RPG – Desafio Apple Academy
 
 Este projeto foi desenvolvido para o desafio do processo seletivo da **Apple Developer Academy | SENAC**.  
 Ele foi construído usando apenas conceitos iniciais do Swift.
@@ -9,11 +9,11 @@ Ele foi construído usando apenas conceitos iniciais do Swift.
 
 ## 🎮 Sobre o Projeto
 
-O sistema simula uma **Loja de Itens RPG** interativa, onde o jogador pode:
+O sistema simula uma **Loja de Itens** interativa, onde o jogador pode:
 
 - Ver seu status (nome, nível e dinheiro)
-- Ver a lista de itens da loja
-- Comprar itens (com verificação de nível e dinheiro)
+- Consultar os itens s disponíveis na loja
+- Comprar itens (com verificação de nível e custo)
 - Vender itens da mochila
 - Ver os itens que possui
 - Sair do jogo
@@ -31,19 +31,19 @@ Utilizando apenas:
 - Funções tradicionais
 - Condicionais (`if`, `else`)
 - Loops (`while`)
-- Tratamento de erros com `throw`, `try`, `catch`
+- Tratamento de erros com `enum`, `throw`, `try` e `catch`
 - Entrada e saída de dados no console
-- Interpolação de strings
 - Menu baseado em `switch`
+- Strings multilinha `"""`
 
-Perfeito para demonstrar domínio dos fundamentos ensinados no workshop.
+Perfeito para demonstrar domínio dos fundamentos visto no workshop.
 
 ---
 
 ## 📦 Estrutura do Sistema
 
 ### ▶️ Loja
-Representada por 3 arrays paralelos:
+Representada por 3 arrays paralelos, onde cada índice representa um item:
 
 - `nomesItens`
 - `custosItens`
@@ -56,13 +56,17 @@ Armazenada em dois arrays:
 
 - `mochilaNomes`
 - `mochilaCustos`
+- 
+📌 Ao vender um item:
+O jogador recebe 50% do valor pago, calculado automaticamente no menu de venda.
 
 ### 🧍 Jogador
-Composto por variáveis simples:
+O jogador começa escolhendo seu nome, e suas características iniciais são definidas automaticamente:
 
-- `nomeJogador` (entrada do usuário)
-- `dinheiro = 350`
-- `nivel = 2`
+- Dinheiro inicial: aleátorio entre 300 e 600
+- Nivel inicial: aleátorio entre 1 e 6
+A cada partida esses valores se tornam diferente.
+
 
 ---
 
