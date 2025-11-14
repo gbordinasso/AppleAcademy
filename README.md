@@ -1,4 +1,3 @@
-# Loja De Itens
 Desafio do processo da Apple Academy – Sistema de Loja de Itens RPG em Swift
 # 🏪 Loja RPG – Desafio Apple Academy
 
@@ -12,7 +11,7 @@ Ele foi construído usando apenas conceitos iniciais do Swift.
 O sistema simula uma **Loja de Itens RPG** interativa, onde o jogador pode:
 
 - Ver seu status (nome, nível e dinheiro)
-- Consultar os itens s disponíveis na loja
+- Consultar os itens disponíveis na loja
 - Comprar itens (com verificação de nível e custo)
 - Vender itens da mochila
 - Ver os itens que possui
@@ -36,11 +35,11 @@ Utilizando apenas:
 - Menu baseado em `switch`
 - Strings multilinha `"""`
 
-Perfeito para demonstrar domínio dos fundamentos visto no workshop.
+Perfeito para demonstrar domínio dos fundamentos vistos no workshop.
 
 ---
 
-## 📦 Estrutura/Mecânica do Sistema
+## 📦 Estrutura do Sistema
 
 ### ▶️ Loja
 Representada por 3 arrays paralelos, onde cada índice representa um item:
@@ -48,8 +47,6 @@ Representada por 3 arrays paralelos, onde cada índice representa um item:
 - `nomesItens`
 - `custosItens`
 - `niveisMinimos`
-
-Cada índice representa um item da loja.
 
 
 ### 🎒 Mochila do Jogador
@@ -64,37 +61,11 @@ Ao vender um item, o jogador recebe 50% do valor pago, calculado automaticamente
 ### 🧍 Jogador
 O jogador começa escolhendo seu nome, e suas características iniciais são definidas automaticamente:
 
-- Dinheiro inicial: aleátorio entre 300 e 600
-- Nivel inicial: aleátorio entre 1 e 6
+- Dinheiro inicial: aleatório entre 300 e 600
+- Nível inicial: aleatório entre 1 e 8
 
-A cada partida esses valores se tornam diferente.
+A cada partida, esses valores mudam.
 
-
-### 🛒 Comprar Itens
-
-O jogador só pode comprar se:
-- Tiver nível suficiente
-- Tiver dinheiro suficiente
-
-Caso contrário, o jogo avisa o motivo.
-
-
-### 💰 Vender Itens
-O jogador escolhe um item da mochila e recebe:
-
-- `ganho = custoOriginal / 2`
-
-Após a venda, o item é removido da mochila.
-
-
-### 📥 Leitura Segura de Números
-
-O sistema valida todas as entradas numéricas usando:
-
-`enum ErroEntrada: Error { case valorInvalido }
-func lerNumero() throws -> Int { ... }`
-
-Isso evita crashes caso o jogador digite algo inválido.
 
 ---
 
@@ -131,3 +102,4 @@ Projeto desenvolvido como parte do desafio técnico da
 
 Autor: **Gustavo Bordinasso**
 
+Otimo. Sim ou nao apenas
