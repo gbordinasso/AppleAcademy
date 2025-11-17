@@ -1,12 +1,12 @@
 Desafio do processo da Apple Academy – Sistema de Loja de Itens RPG em Swift
-#Loja de Itens – Desafio Apple Academy
+# Loja de Itens – Desafio Apple Academy
 
 Este projeto foi desenvolvido para o desafio do processo seletivo da **Apple Developer Academy | SENAC**.  
 Ele foi construído usando apenas conceitos iniciais do Swift.
 
 ---
 
-##Sobre o Projeto
+## Sobre o Projeto
 
 O sistema simula uma Loja de Itens RPG interativa, onde o jogador pode:
 
@@ -21,7 +21,7 @@ Tudo funciona diretamente pelo **console**, usando `readLine()` para interaçõe
 
 ---
 
-##Conceitos Utilizados
+## Conceitos Utilizados
 
 Utilizando apenas:
 
@@ -41,7 +41,7 @@ Perfeito para demonstrar domínio dos fundamentos vistos no workshop.
 
 ## Estrutura do Sistema
 
-###Loja
+### Loja
 Representada por 3 arrays paralelos, onde cada índice representa um item:
 
 - `nomesItens`
@@ -49,7 +49,7 @@ Representada por 3 arrays paralelos, onde cada índice representa um item:
 - `niveisMinimos`
 
 
-###Mochila do Jogador
+### Mochila do Jogador
 Armazenada em dois arrays:
 
 - `mochilaNomes`
@@ -69,7 +69,7 @@ A cada partida, esses valores mudam.
 
 ---
 
-##Como executar
+## Como executar
 
 1. Abra o Xcode ou qualquer editor que suporte Swift.
 2. Crie um novo arquivo `main.swift` ou um Playground.
@@ -83,7 +83,7 @@ Todos os outros valores são definidos automaticamente.
 
 ---
 
-##O que eu aprendi criando este projeto
+## O que eu aprendi criando este projeto
 
 - Como montar menus interativos no console  
 - Como organizar informações usando arrays  
@@ -95,7 +95,7 @@ Todos os outros valores são definidos automaticamente.
 
 ---
 
-##Sobre
+## Sobre
 
 Projeto desenvolvido como parte do desafio técnico da  
 Apple Developer Academy | SENAC Santo Amaro.
